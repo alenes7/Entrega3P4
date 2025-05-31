@@ -1,0 +1,146 @@
+/* Tipografía base */
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #fbb9d1;
+  color: #333;
+}
+
+/* NAVBAR */
+.navbar {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: #fbb9d1 !important;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.navbar-brand {
+  font-family: 'Pacifico', cursive;
+  font-size: 1.8rem;
+  color: #c60f0f !important;
+}
+
+.nav-link {
+  color: #c60f0f !important;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: #fc508f !important;
+}
+
+/* CARRUSEL */
+.carousel-item img {
+  max-height: 700px;
+  object-fit: cover;
+}
+
+/* Títulos de sección */
+.seccion-titulo {
+  font-family: 'Pacifico', cursive;
+  font-size: 2.5rem;
+  color: #b85c38;
+  margin-bottom: 40px;
+}
+
+/* Secciones */
+section {
+  background-color: #fff0e6;
+  border-radius: 20px;
+  margin-bottom: 50px;
+  padding: 40px 20px;
+}
+
+.bg-light {
+  background-color: #fdeee4 !important;
+}
+
+/* Descripción de pastel */
+.descripcion-pastel {
+  font-size: 1rem;
+  margin-top: 10px;
+  color: #6b4c3b;
+  font-weight: 500;
+}
+
+/* Imágenes */
+img.img-fluid {
+  border: 3px solid #fdd8c0;
+  border-radius: 4px;
+  transition: 0.3s ease-in-out;
+}
+
+img.img-fluid:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+  background-color: #b85c38;
+  color: white;
+}
+
+footer h4 {
+  font-family: 'Pacifico', cursive;
+  font-size: 1.6rem;
+}
+
+footer .social-icons img {
+  transition: transform 0.3s;
+}
+
+footer .social-icons img:hover {
+  transform: scale(1.1);
+}
+
+/* Responsive ajustes */
+@media (max-width: 768px) {
+  .seccion-titulo {
+    font-size: 2rem;
+  }
+}
+
+#quienes-somos {
+  margin-top: 60px;
+}
+
+.titulo-quienes {
+  font-family: 'Pacifico', cursive;
+  color: #C94C4C; /* Puedes cambiarlo por otro tono que combine con tu marca */
+  font-size: 2.5rem;
+}
+
+#quienes-somos p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+#juveniles {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+#infantiles {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+#festivos {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  transition: transform 0.3s;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.1);
+}
